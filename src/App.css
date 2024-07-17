@@ -1,0 +1,48 @@
+.App {
+  text-align: center; /* Center the text in the App */
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh; /* Full viewport height */
+  display: flex; /* Use flexbox for centering */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center children horizontally */
+  justify-content: center; /* Center children vertically */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping of movie cards */
+  gap: 20px; /* Space between movie cards */
+  justify-content: center; /* Center movie cards horizontally */
+  margin-top: 20px; /* Space between the heading and movie list */
+}
+
+.movie-card {
+  border: 1px solid #ccc; /* Add border */
+  padding: 20px; /* Add padding */
+  border-radius: 8px; /* Round corners */
+  width: 200px; /* Set width of each card */
+  text-align: center; /* Center text in card */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow */
+  background-color: #fff; /* Set background color */
+}
+
+.movie-image {
+  width: 100%; /* Full width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Round image corners */
+  margin-bottom: 10px; /* Space below image */
+}
+
+.movie-card a {
+  color: #007bff; /* Link color */
+  text-decoration: none; /* No underline */
+}
+
+.movie-card a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
